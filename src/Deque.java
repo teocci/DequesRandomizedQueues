@@ -113,7 +113,7 @@ public class Deque<Item> implements Iterable<Item> {
         size++;
     }
 
-    public Item removeElement(Node node, Boolean front) {
+    private Item removeElement(Node node, Boolean front) {
         Item item = node.item;
 
         if (size == 1) {
