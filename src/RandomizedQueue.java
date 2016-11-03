@@ -131,6 +131,11 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         }
     }
 
+    /**
+     *  unit testing
+     *
+     *  @param args main function standard arguments
+     */
     public static void main(String[] args) {
         // TODO Auto-generated method stub
 

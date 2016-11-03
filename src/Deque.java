@@ -127,7 +127,6 @@ public class Deque<Item> implements Iterable<Item> {
             tail.next = null;
         }
 
-        node = null;
         size--;
 
         return item;
@@ -180,19 +179,8 @@ public class Deque<Item> implements Iterable<Item> {
         }
     }
 
-    private void printList() {
-        Node current = head;
-        while (current != null) {
-            System.out.print(current.item);
-            System.out.print("-");
-            current = current.next;
-        }
-        System.out.println();
-    }
-
     /**
-     *  test client to read a puzzle from a file (specified as a command-line argument)
-     *  and print the solution to standard output.
+     *  unit testing
      *
      *  @param args main function standard arguments
      */
